@@ -1,50 +1,65 @@
-body {
-    margin : 0;
+*{
+  box-sizing: border-box;
+  margin-top: 0px;
+  padding: 0;
 }
-
-.container {
-    width: 100vw;
-    height: 100vh;
-
-    font-family: 'Quicksand',poppins;
-    font-weight: bold;
-    font-size: 20px;
-
-    display: grid;
-
-    grid-template-columns: repeat(3, 1fr);
-    grid-template-rows: 50px 1fr 1fr 100px;
-
-    gap: 10px;
- 
-    padding: 10px;
-    box-sizing: border-box;
-}
-
-.container div {
-    padding: 10 px;
-    border: 1px solid black;
-}
-
 .header {
-    grid-column-start: 1;
-    grid-column-end: 4;
-    background-color: coral;
-    text-align: center;
-    padding: 10px;
-
+  color: white;
+  background-color: #242529;
+  text-align: center;
+  border-style: solid;
+  padding: 30px;
 }
-
-.content-large {
-    grid-column: 1/ 3;
-    grid-row: 2/ span 2;
-    color: red;
+#apa {
+  float: left;
+  width: 70%;
 }
-
 .footer {
-    grid-column: 1 / span 3;
-    background-color: black;
-    color: white;
-    text-align: center;
-    padding: 30px;
+  padding: 20px;
+  color: white;
+  background-color: #242529;
+  text-align: center;
+  font-weight: bold;
+  border-style: solid;
+  border-width: 10px;
+  clear: both;
+}
+
+.main {
+  padding: 20px;   
+  overflow: auto;
+}
+.nama{
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+  border-radius: 5px;
+  padding: 20px;
+  margin-top: 20px;
+}
+
+.nama .button {
+  text-decoration: none;
+}
+
+.nama .tombol {
+  background-color: grey;
+  color: white;
+  border: none;
+  border-radius: 10px;
+  padding: 15px;
+
+}
+
+.nama .tombol2 {
+  background-color: grey;
+  color: white;
+  border: none;
+  border-radius: 10px;
+  padding: 15px;
+}
+
+aside {
+  width: 28%;
+  float: right;
+  padding-left: px;
+
 }
