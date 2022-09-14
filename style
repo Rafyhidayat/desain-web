@@ -1,0 +1,65 @@
+*{
+  box-sizing: border-box;
+  margin-top: 0px;
+  padding: 0;
+}
+.header {
+  color: white;
+  background-color: #242529;
+  text-align: center;
+  border-style: solid;
+  padding: 30px;
+}
+#apa {
+  float: left;
+  width: 70%;
+}
+.footer {
+  padding: 20px;
+  color: white;
+  background-color: #242529;
+  text-align: center;
+  font-weight: bold;
+  border-style: solid;
+  border-width: 10px;
+  clear: both;
+}
+
+.main {
+  padding: 20px;   
+  overflow: auto;
+}
+.nama{
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+  border-radius: 5px;
+  padding: 20px;
+  margin-top: 20px;
+}
+
+.nama .button {
+  text-decoration: none;
+}
+
+.nama .tombol {
+  background-color: grey;
+  color: white;
+  border: none;
+  border-radius: 10px;
+  padding: 15px;
+
+}
+
+.nama .tombol2 {
+  background-color: grey;
+  color: white;
+  border: none;
+  border-radius: 10px;
+  padding: 15px;
+}
+
+aside {
+  width: 28%;
+  float: right;
+  padding-left: px;
+
+}
