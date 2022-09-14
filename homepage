@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Document</title>
+  <link rel="stylesheet" href="style1.css">
+</head>
+<body>
+  <header class="header">
+    <div>Kebun Binatang Kilo 15</div>
+  </header>
+
+  <main class="main">
+    <div id="apa">
+      <article class="nama">
+        <Div>Ini Kucing Kilo</Div>
+      </article>
+  
+      <article class="nama">
+        <img src="https://assets.petpintar.com/cache/760/450/article/500/1625393201-cara-merawat-kucing-himalaya-banner.jpg" alt="" style="display: block; margin: auto;">
+      </article>
+  
+      <article class="nama">
+        <Div>Ini Burung Kilo</Div>
+      </article>
+  
+      <article class="nama">
+        <img src="https://klikhijau.com/wp-content/uploads/2020/07/Burung-Kuntul-Kerbau-Penyeimbang-dan-Pengendali-Hama-pada-Ekosistem-Persawahan.jpg" alt="" style="display: block; margin: auto;">
+      </article>
+  
+      <article class="nama">
+        <a class ="button" href="https://bit.ly/3eNXAoq"><button class ="tombol" > <<< PREVIOUS PAGE</button> <button class="tombol2"> NEXT PAGE >>></button></a>
+      </article>
+    </div>
+
+    <aside class="aside nama">
+      <article>
+        <div><a href="https://bit.ly/3eNXAoq" style="text-decoration: none; color: black; align-items: right;"> Lorem ipsum dolor sit amet, consectetur adipiscing elit. Ut pulvinar fringilla enim, at vehicula nulla tristique eu. Integer hendrerit, nisi quis varius venenatis, mi lacus pretium massa, eget ultricies turpis urna vel est. Suspendisse mollis tellus eu ultrices interdum. Aliquam sagittis erat a mi feugiat volutpat. Integer tristique, sem placerat volutpat ullamcorper, est arcu cursus metus, eu faucibus nulla justo in ipsum. Aliquam erat volutpat. Class aptent taciti sociosqu ad litora torquent per conubia nostra, per inceptos himenaeos.
+
+          Sed blandit nec turpis ut lacinia. Vivamus eget augue tempus, maximus augue eu, dictum purus. Nunc nec mollis justo. Maecenas consequat nunc non turpis semper, vel consequat risus laoreet. Donec feugiat nisl massa, id efficitur enim eleifend id. Donec vulputate odio sed lorem semper laoreet. Nunc tristique sollicitudin massa. Nunc justo sem, ultricies ut ipsum in, interdum venenatis ex. Aenean pulvinar tellus in lorem commodo dapibus. Etiam libero lorem, malesuada quis ullamcorper non, sagittis a lacus. Morbi egestas nibh a ex cursus dapibus. Aenean vel ex posuere, interdum metus vitae, malesuada felis. Mauris porttitor lectus felis, sit amet ultricies sem fermentum nec. Ut enim libero, convallis quis ligula sed, lacinia maximus dolor.</a></div>
+      </article>
+    </aside>
+  </main>
+  <footer class="footer">
+    <div>Copyright Ini Bukan Taratakdung 2020</div>
+  </footer>
+</body>
+</html>
+
